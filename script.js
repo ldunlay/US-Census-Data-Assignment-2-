@@ -7,3 +7,4 @@ async function getPopData() {
     console.log(popDataResult);
 }
 
+getPopData();
