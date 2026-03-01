@@ -1,18 +1,9 @@
-const jsonText = `{
- "browsers": {
- "firefox": {
- "name": "Firefox",
- "pref_url": "about:config",
- "releases": {
- "1": {
- "release_date": "2004-11-09",
- "status": "retired",
- "engine": "Gecko",
- "engine_version": "1.7"
- }
- }
- }
-}
-}`;
+//Reference website: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+// Also inspired/borrowed from instructor's github (see README)
 
-console.log(JSON.parse(jsonText));
+async function getPopData() {
+    const response = await fetch("https://api.datausa.io/tesseract/data.jsonrecords?cube=acs_yg_total_population_5&measures=Population&drilldowns=Year")
+    const popDataResult = await response.json();
+    console.log(popDataResult);
+}
+
