@@ -15,4 +15,6 @@ The following code was borrowed/used for reference:
 
 [Link to Website Reference](https://www.w3schools.com/jsref/prop_html_innerhtml.asp)
 
+[Link to Website Reference](https://www.geeksforgeeks.org/html/html-table-align-attribute/)
+
 AI was also used for background information.
