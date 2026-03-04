@@ -8,3 +8,8 @@ The following code was borrowed/used for reference:
 
 [Link to Website Reference](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 
+[Link to Website Reference](https://www.w3schools.com/html/html_css.asp)
+
+[Link to Website Reference](https://www.w3schools.com/jsref/prop_html_innerhtml.asp)
+
+AI was also used for background information.
