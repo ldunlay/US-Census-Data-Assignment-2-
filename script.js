@@ -15,12 +15,18 @@ async function getPopData() {
 function renderPop(data) {
     const popDiv = document.getElementById("poptable");
     popDiv.innerHTML = "";
+    popDiv.innerHTML += `        
+        <tr>
+            <th>Year</th>
+            <th>Population</th>
+        </tr>`
     data.forEach((x) => {
         popDiv.innerHTML += `
-
+        
         <tr> 
         
-        <td>${x.Year}    ${x.Population} </td>
+        <td>${x.Year}</td>    
+        <td>${x.Population} </td>
             
 
         </tr>`;
