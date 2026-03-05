@@ -4,7 +4,16 @@ h1 {
     text-align: center;
 }
 
-table {
+table,
+th,
+td {
     border: 3px solid blue;
-    font-size: 30px;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th,
+td {
+    padding: 20px;
 }
