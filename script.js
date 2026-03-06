@@ -7,11 +7,14 @@ async function getPopData() {
     const response = await fetch("https://api.datausa.io/tesseract/data.jsonrecords?cube=acs_yg_total_population_5&measures=Population&drilldowns=Year")
     const popDataResult = await response.json();
     console.log(popDataResult);
+
+    // call the render function
     renderPop(popDataResult.data);
 
 
 }
 
+// this will render our JSON object to HTML 
 function renderPop(data) {
     // refer to html poptable
     const popDiv = document.getElementById("poptable");
@@ -38,7 +41,7 @@ function renderPop(data) {
 
 
 
-//IIFE format
+//IIFE format shown in class
 (() => {
     getPopData();
 })();
