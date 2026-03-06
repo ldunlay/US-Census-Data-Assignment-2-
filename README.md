@@ -3,7 +3,10 @@ CS 3980 Assignment 2
 
 This is assignment 2 for CS3980 Spring 2026 at the University of Iowa. The goal of this assignment is to create a webpage containing US population data.
 
-US Census API Endpoint: https://api.datausa.io/tesseract/data.jsonrecords?cube=acs_yg_total_population_5&measures=Population&drilldowns=Year
+Data is fetched from the US Census API Endpoint: https://api.datausa.io/tesseract/data.jsonrecords?cube=acs_yg_total_population_5&measures=Population&drilldowns=Year
+
+JavaScript was used to make the api call and parse the data. The years and corresponding populations are rendered as a table in HTML.
+
 
 ![Example Output](ExampleOutput.png)
 
